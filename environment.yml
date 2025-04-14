@@ -16,6 +16,7 @@ dependencies:
     - openai
     - typing
     - dotenv
+    - google-cloud-translate
 
     
   
