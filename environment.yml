@@ -1,0 +1,21 @@
+name: brochure-gen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - streamlit
+  - spyder-kernels=3.0
+  - requests 
+  - pip:
+    - pdfplumber
+    - docx2txt
+    - ollama
+    - bs4
+    - openai
+    - typing
+    - dotenv
+
+    
+  
